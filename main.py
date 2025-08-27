@@ -26,7 +26,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 # Endpoint for Binance Kline API
-BINANCE_URL = "https://api.binance.com/api/v3/klines"
+BINANCE_URL = "https://data.binance.com/api/v3/klines"
 
 app = FastAPI(title="Crypto App with Brackets")
 
